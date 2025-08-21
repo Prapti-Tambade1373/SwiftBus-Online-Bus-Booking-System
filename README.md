@@ -1,84 +1,12 @@
-# SwiftBus-Online-Bus-Booking-System
+# React + Vite
 
-🚍 SwiftBus – Online Bus Booking System
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-SwiftBus is a full-stack bus booking system built with Spring Boot, Spring JPA, Hibernate, MySQL (backend) and React.js, Bootstrap, Axios (frontend). The system provides a seamless way for users to search, book, and manage bus tickets online while enabling administrators to manage buses, companies, and bookings efficiently.
+Currently, two official plugins are available:
 
-✨ Features
-👤 User Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-User registration & login
+## Expanding the ESLint configuration
 
-Browse available buses (AC, Non-AC, Sleeper, etc.)
-
-Search buses by route, date, and company
-
-Book bus tickets with seat selection
-
-Online payment via Razorpay integration
-
-View booking history & download invoice in PDF
-
-🛠️ Admin Features
-
-Admin login & dashboard
-
-Manage bus details (Add, Update, Delete) with images
-
-Manage bus companies & routes
-
-View all users and their bookings
-
-Download and manage invoices
-
-🏗️ Tech Stack
-🔹 Backend
-
-Spring Boot (REST APIs)
-
-Spring JPA + Hibernate
-
-MySQL (Database)
-
-🔹 Frontend
-
-React.js
-
-Bootstrap (UI Styling)
-
-Axios (API calls)
-
-🔹 Other Integrations
-
-Razorpay (Online Payments)
-
-PDF Invoice Generation
-
-📂 Project Structure
-swiftbus/
-│── backend/     # Spring Boot application (APIs, Entities, Services, Repositories)
-│── frontend/    # React.js application (Pages, Components, Services)
-
-🚀 Getting Started
-🔹 Backend Setup
-
-Clone the repository
-
-Import backend into your IDE (Eclipse/IntelliJ)
-
-Configure MySQL database (username: root, password: root)
-
-Run the Spring Boot application
-
-🔹 Frontend Setup
-
-Navigate to frontend folder
-
-Install dependencies:
-
-npm install
-
-
-Start development server:
-
-npm start
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
