@@ -1,0 +1,40 @@
+/* Same styling used in Hotel navbar */
+.custom-navbar {
+  background: #343a40;          /* dark background */
+  border-bottom: 1px solid #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.brand-text {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.brand-text:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.nav-item-link {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-item-link:hover {
+  color: #adb5bd;               /* lighter gray on hover */
+  text-decoration: underline;
+}
+
+.user-greeting {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.nav-auth .btn {
+  font-size: 0.9rem;
+}
